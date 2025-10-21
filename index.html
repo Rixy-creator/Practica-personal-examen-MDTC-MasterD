@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe corner</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Coffe corner</h1>
+        <nav>
+            <a class="box" href="#">Inicio</a>
+            <a class="box" href="#">Carta</a>
+            <a class="box" href="#">Contacto</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Bienvenido a Coffee Corner</h2>
+            <p>En esta página haremos un examen práctico de HTML, CSS y javascript básico.</p>
+            <img src="https://pymstatic.com/30549/conversions/tipos-de-cafe-wide.jpg" alt="taza de cafe con fondo azul" width="1600" height="1200">
+        </section>
+        <section>
+            <h2>Nuestros cafés</h2>
+            <div>
+                <h3>Café con leche</h3>
+                <img src="https://hips.hearstapps.com/hmg-prod/images/cafe-1599479980.jpg?crop=1xw:1xh;center,top&resize=640:*" alt="cafe con corazon" width="640" height="640">
+                <p>Es un café muy clásico con un sabor suave comparado con otros cafés y perfecto para tomarlo mientras hablas con amigos.</p>
+            </div>
+            <div>
+                <h3>Café negro</h3>
+                <img src="https://cafe1820.com/wp-content/uploads/2022/03/Cafe-negro.jpg" alt="cafe negro con fondo gris" width="1280" height="900">
+                <p>El café negro ofrece beneficios como aumentar la energía, el rendimiento físico y mejorar la concentración.</p>
+            </div>
+            <div>
+                <h3>Expresso</h3>
+                <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/11/15/17000681363132.jpg" alt="cafe expresso haciendose en maquina" width="1980" height="1320">
+                <p>Es un café originado en Italia. Se caracteriza por su rápida preparación a una alta presión y por un sabor y textura más concentrados.</p>
+            </div>
+        </section>
+        <section>
+            <h2>Formulario</h2>
+            <form onsubmit="enviarMensaje()" action="#">
+                <label for="name">Nombre *</label>
+                <input type="text" id="name" name="nombre" placeholder="Nombre" required>
+
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="correo" placeholder="Email" required>
+
+                <label for="comentario"></label>
+                <textarea id="comentario" name="comentario" placeholder="Comentanos cualquier duda por aquí:"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Coffee Corner - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
